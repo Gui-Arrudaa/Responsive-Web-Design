@@ -1,11 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 * {
   margin: 0;
   border: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -46,7 +46,7 @@ li.last-nav-link {
   margin-right: 50px;
 }
 
-section#welcome {
+section#welcome-section {
   width: 100%;
   height: 100vh;
   background: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
@@ -85,7 +85,7 @@ h1.proj-h1 {
   border-bottom: 2px solid white;
 }
 
-div.container {
+div.project-tile {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 40px;
@@ -175,7 +175,7 @@ div.social-links {
   flex-wrap: wrap;
 }
 
-a.a-social {
+a#profile-link {
   align-items: center;
 }
 
