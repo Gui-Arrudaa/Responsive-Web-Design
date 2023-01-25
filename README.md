@@ -2,7 +2,7 @@
 
 [freeCodeCamp](https://www.freecodecamp.org) Responsive Web Design course [projects](https://www.freecodecamp.org/learn/responsive-web-design/#responsive-web-design-projects).
 
-## Viewing the projects
+## Demos
 
 - [Personal Portfolio Webpage](https://78z29t.csb.app)
 - [Product Landing Page](https://wcd0hl.csb.app)
