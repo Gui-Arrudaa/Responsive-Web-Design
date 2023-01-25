@@ -1,11 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 * {
   margin: 0;
   border: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 15px;
   color: #333;
   line-height: 1.2;
@@ -37,12 +37,13 @@ body {
 ul,
 a {
   list-style: none;
-  display: flex;
   text-decoration: none;
 }
 
-.nav-link {
-  margin-right: 90px;
+#nav-bar {
+  display: flex;
+  gap: 50px;
+  margin-right: 70px;
 }
 
 .email {
@@ -168,6 +169,7 @@ a {
 }
 
 .footer-ul {
+  display: flex;
   justify-content: flex-end;
 }
 
@@ -181,7 +183,8 @@ a {
 }
 
 @media only screen and (max-width: 930px) {
-  .nav-link {
+  #nav-bar {
+    gap: 15px;
     margin-right: 20px;
   }
 
@@ -201,10 +204,6 @@ a {
 @media only screen and (max-width: 660px) {
   #first-h2 {
     font-size: 18px;
-  }
-
-  .nav-link {
-    margin-right: 20px;
   }
 
   .icon {
@@ -230,6 +229,11 @@ a {
 @media only screen and (max-width: 560px) {
   #header {
     flex-direction: column;
+  }
+
+  #nav-bar {
+    gap: 10px;
+    margin-right: 0;
   }
 
   #first-h2 {
